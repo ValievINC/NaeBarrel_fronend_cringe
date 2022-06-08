@@ -1,0 +1,16 @@
+body {
+    margin:0;
+}
+
+.background {
+    height: 100vh;
+    background: linear-gradient(176deg, #F9DF9F 30%, #F7BA44 25%)
+}
+
+.icon {
+    position: absolute;
+    max-width: 30%;
+    height: auto;
+    margin-left: 15vw;
+    margin-top: 5vh;
+}
