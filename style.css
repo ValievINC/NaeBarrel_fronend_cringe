@@ -81,7 +81,7 @@ body {
     rotate(-5deg);
 }
 
-.items-list {
+.inv-list {
     position: absolute;
     top: 45vh;
     left: 50%;
@@ -94,10 +94,16 @@ body {
     grid-row-gap: 1.5vh;
 }
 
-.item {
-    width: 100%;
+.block {
+    width: 20vh;
+    height: auto;
     background-color: #D29E3A;
     border-radius: 2.5vh;
+    transition: 0.2s;
+}
+
+.block:hover {
+    transform: scale(1.2);
 }
 
 .fish-size {
@@ -106,16 +112,16 @@ body {
     height: auto;
 }
 
-.itemname {
-    font-size: 4vh;
+.iname {
     position: absolute;
-    top: -5vh;
-    left: 1vh;
+    font-size: 4vh;
+    margin-top: -16vh;
+    margin-left: 1vh;
 }
 
-.itemprice {
-    font-size: 4vh;
+.iprice {
     position: absolute;
-    top: 0;
-    left: 0vh;
+    font-size: 4vh;
+    margin-top: -5vh;
+    margin-left: 10vh;
 }
