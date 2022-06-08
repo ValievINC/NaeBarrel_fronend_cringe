@@ -1,5 +1,6 @@
 body {
     margin:0;
+    background-color: #F7BA44;
 }
 
 .background {
@@ -8,9 +9,30 @@ body {
 }
 
 .icon {
-    position: absolute;
-    max-width: 30%;
+    position: fixed;
+    width: 50vh;
     height: auto;
-    margin-left: 15vw;
-    margin-top: 5vh;
+    left: 20vw;
+    top: 9vh;
+}
+
+.profile {
+    position: fixed;
+    border-radius: 50%;
+    width: 15vh;
+    height: 15vh;
+    background: #D8A136;
+    right: 20vw;
+    top: 12vh;
+}
+
+.profile-balance {
+    position: fixed;
+    border-radius: 30px;
+    background: #DC950B;
+    width: 10vw;
+    height: 3vw;
+    right: 23vw;
+    top: 21vh;
+    transform: rotate(-5deg)
 }
