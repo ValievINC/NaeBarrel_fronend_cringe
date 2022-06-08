@@ -1,15 +1,16 @@
 body {
     margin:0;
     background-color: #F7BA44;
+    overflow: auto;
 }
 
 .background {
     height: 100vh;
-    background: linear-gradient(176deg, #F9DF9F 30%, #F7BA44 25%)
+    background: linear-gradient(176deg, #F9DF9F 30%, #F7BA44 25%);
 }
 
 .icon {
-    position: fixed;
+    position: absolute;
     width: 50vh;
     height: auto;
     left: 20vw;
@@ -17,7 +18,7 @@ body {
 }
 
 .profile {
-    position: fixed;
+    position: absolute;
     border-radius: 50%;
     width: 15vh;
     height: 15vh;
@@ -27,12 +28,50 @@ body {
 }
 
 .profile-balance {
-    position: fixed;
-    border-radius: 30px;
+    position: absolute;
+    border-radius: 2vw;
     background: #DC950B;
-    width: 10vw;
-    height: 3vw;
+    width: 20vh;
+    height: 6vh;
     right: 23vw;
     top: 21vh;
     transform: rotate(-5deg)
+}
+
+.shop-list {
+    position: absolute;
+    top: 45vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    place-items: center;
+    display: grid;
+    grid-template-columns: 30vh 30vh 30vh 30vh;
+    grid-template-rows: 35vh 35vh;
+    padding-bottom: 10vh;
+}
+
+.barrel {
+    filter: drop-shadow(20px 10px 2px rgba(0, 0, 0, 0.25));
+}
+
+.barrel-size {
+    width: 20vh;
+    height: auto;
+}
+
+.name {
+    font-size: 4vh;
+    position: absolute;
+    top: -3vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.price {
+    font-size: 4vh;
+    position: absolute;
+    top: 18vh;
+    left: 50%;
+    transform: translate(-50%, 0)
+    rotate(-5deg);
 }
