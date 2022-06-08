@@ -80,3 +80,42 @@ body {
     transform: translate(-50%, 0)
     rotate(-5deg);
 }
+
+.items-list {
+    position: absolute;
+    top: 45vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    place-items: center;
+    display: grid;
+    grid-template-columns: 20vh 20vh 20vh 20vh 20vh 20vh;
+    grid-template-rows: 15vh;
+    grid-column-gap: 1vh;
+    grid-row-gap: 1.5vh;
+}
+
+.item {
+    width: 100%;
+    background-color: #D29E3A;
+    border-radius: 2.5vh;
+}
+
+.fish-size {
+    padding-left: 2vh;
+    width: 16vh;
+    height: auto;
+}
+
+.itemname {
+    font-size: 4vh;
+    position: absolute;
+    top: -5vh;
+    left: 1vh;
+}
+
+.itemprice {
+    font-size: 4vh;
+    position: absolute;
+    top: 0;
+    left: 0vh;
+}
