@@ -144,6 +144,38 @@ body {
     margin-left: 10vh;
 }
 
+.openbarrel {
+    position: absolute;
+    top: 40vh;
+    left: 78vh;
+    transition: 0.2s;
+}
+
+.simple-barrel {
+    width: 50vh;
+    height: auto;
+}
+
+.open {
+    position: absolute;
+    width: 22vh;
+    height: 8vh;
+    background-color: #71CC75;
+    border-radius: 1vh;
+    font-size: 8vh;
+    top: 15vh;
+    left: 14vh;
+    text-align: center;
+    transition: 0.2s;
+}
+.openbarrel:hover {
+    transform: scale(0.9);
+}
+
+.openbarrel:hover > .open{
+    transform: scale(1.6);
+}
+
 .drop-list {
     position: absolute;
     top: 80vh;
