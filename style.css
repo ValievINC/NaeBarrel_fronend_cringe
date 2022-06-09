@@ -144,11 +144,20 @@ body {
     margin-left: 10vh;
 }
 
+.barrel-name {
+    position: absolute;
+    text-align: center;
+    top: 30vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 10vh;
+}
+
 .openbarrel {
     position: absolute;
     top: 40vh;
-    left: 78vh;
-    transition: 0.2s;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .simple-barrel {
@@ -168,12 +177,54 @@ body {
     text-align: center;
     transition: 0.2s;
 }
-.openbarrel:hover {
-    transform: scale(0.9);
+
+.open:hover{
+    transform: scale(1.6);
 }
 
-.openbarrel:hover > .open{
-    transform: scale(1.6);
+.openedItem {
+    position: absolute;
+    top: 10vh;
+    display: none;
+    width: 60vh;
+    height: 60vh;
+    border-radius: 50%;
+    background-color: aliceblue;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.closeBarrel {
+    position: absolute;
+    top: 2vh;
+    width: 15vh;
+    height: 15vh;
+    left: 46vh;
+    background-color: #71CC75;
+    border-radius: 50%;
+    font-size: 8vh;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.ok {
+    margin-top: 3vh;
+}
+
+.closeBarrel:hover {
+    transform: scale(1.2);
+}
+
+.actually-drop {
+    top: 14vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.actually-drop-size {
+    width: 35vh;
+    height: auto;
 }
 
 .drop-list {

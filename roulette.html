@@ -7,12 +7,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="background">
+    <div class="background" id="background">
         <img src="NaeBarrelIcon.png" class="icon">
         <div class="profile-balance"></div> <!--Сюда баланс-->
         <div class="profile"></div> <!--Сюда авы подгружайте-->
-        <div class="openbarrel"><img src="simple_barrel.png" class="simple-barrel">
-          <div class="open">OPEN</div>
+        <div class="barrel-name">Barrel-Name</div>
+        <div class="openbarrel">
+          <img src="simple_barrel.png" class="simple-barrel">
+          <div class="open" onclick="openBarrel()">OPEN</div>
         </div>
         <div class="drop-list"> <!--Тут гуглите Repeat-нотацию для grid-->
           <div class="drop"><img src="fish.png" class="fish-size">
@@ -34,6 +36,13 @@
             <p class="drop-name">Name</p>
           </div>
         </div>
+    </div>
+    <div class="openedItem" id="openedItem"> <!--Сюда подгружаете дроп, который выпадет-->
+      <div class="closeBarrel" id="closeBarrel" onclick="closeBarrel()">
+        <p class="ok">OK</p> 
+      </div>
+      <div class="actually-drop"><img src="fish.png" class="actually-drop-size">
+      </div>
     </div>
     <script src="js/scripts.js"></script>
 </body>
