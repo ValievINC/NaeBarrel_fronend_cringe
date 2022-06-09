@@ -274,3 +274,70 @@ body {
     margin-top: -4vh;
     margin-left: 6.5vh;
 }
+
+.fill-name {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 35vh;
+}
+
+.type-name {
+    width: 40vh;
+    height: 7vh;
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 4vh;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: #BBA777;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 3vh;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fill-price {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 47vh;
+}
+
+.place-list {
+    position: absolute;
+    top: 62vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    place-items: center;
+    display: grid;
+    grid-template-columns: 20vh 20vh 20vh 20vh 20vh 20vh;
+    grid-column-gap: 1vh;
+    grid-row-gap: 1.5vh;
+}
+
+.place {
+    width: 20vh;
+    height: auto;
+    background-color: #D29E3A;
+    border-radius: 2.5vh;
+}
+
+.place-size {
+    padding-left: 3vh;
+    width: 14vh;
+    height: auto;
+}
+
+.choose-image {
+    position: absolute;
+    top: 80vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.choose-size {
+    width: 20vh;
+    height: auto;
+}
