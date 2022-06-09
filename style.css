@@ -143,3 +143,51 @@ body {
     margin-top: -5vh;
     margin-left: 10vh;
 }
+
+.drop-list {
+    position: absolute;
+    top: 80vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    place-items: center;
+    display: grid;
+    grid-template-columns: 20vh 20vh 20vh 20vh 20vh 20vh;
+    grid-template-rows: 15vh;
+    grid-column-gap: 1vh;
+    grid-row-gap: 1.5vh;
+}
+
+.drop {
+    width: 20vh;
+    height: auto;
+    background-color: #D29E3A;
+    border-radius: 2.5vh;
+}
+
+.drop-rare {
+    width: 20vh;
+    height: auto;
+    background-color: #99A68C;
+    border-radius: 2.5vh;
+}
+
+.drop-superrare {
+    width: 20vh;
+    height: auto;
+    background-color: #F47A33;
+    border-radius: 2.5vh;
+}
+
+.drop-rarest {
+    width: 20vh;
+    height: auto;
+    background-color: #FFC700;
+    border-radius: 2.5vh;
+}
+
+.drop-name {
+    position: absolute;
+    font-size: 3vh;
+    margin-top: -4vh;
+    margin-left: 6.5vh;
+}
